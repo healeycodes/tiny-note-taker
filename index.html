@@ -13,12 +13,13 @@
     <div class="center-both-axis">
         <h5 class="header">Tiny Note Taker</h5>
         <div class="controls">
-            <button onclick="newNote()">New</button>
+            <button class="new" onclick="newNote()">New</button>
             <select id="notes" onchange="changeNote()"></select>
-            <button onclick="deleteNote()">Delete</button>
+            <button class="delete" onclick="deleteNote()">Delete</button>
         </div>
         <textarea id="editor" rows="10" onkeyup="saveNote()"
             onkeydown="checkEmpty()" autofocus></textarea>
+        <p>A <a href="https://twitter.com/healeycodes">@healeycodes</a> tutorial.</p>
     </div>
     <script src="./index.js"></script>
 </body>
