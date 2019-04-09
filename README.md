@@ -6,7 +6,7 @@ Live version [here](https://healeycodes.github.io/tiny-note-taker/).
 
 <br>
 
-![App in action](https://github.com/healeycodes/tiny-note-taker/blob/master/preview.png)
+[![App in action](https://github.com/healeycodes/tiny-note-taker/blob/master/preview.png)](https://healeycodes.github.io/tiny-note-taker/)
 
 <br>
 
