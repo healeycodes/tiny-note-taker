@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.center-both-axis {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    margin: 0 0 5px 0;
+}
+
+.controls {
+    margin: 0 0 5px 0;
+}

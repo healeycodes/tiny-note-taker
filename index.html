@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tiny Note Taker</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="center-both-axis">
+        <h5 class="header">Tiny Note Taker</h5>
+        <div class="controls">
+            <button onclick="newNote()">New</button>
+            <select id="notes" onchange="changeNote()"></select>
+            <button onclick="deleteNote()">Delete</button>
+        </div>
+        <textarea id="editor" rows="10" onkeyup="saveNote()"
+            onkeydown="checkEmpty()" autofocus></textarea>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
