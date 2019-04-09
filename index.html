@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tiny Note Taker</title>
     <link rel="stylesheet" href="./index.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
@@ -17,9 +18,15 @@
             <select id="notes" onchange="changeNote()"></select>
             <button class="delete" onclick="deleteNote()">Delete</button>
         </div>
-        <textarea id="editor" rows="10" onkeyup="saveNote()"
-            onkeydown="checkEmpty()" autofocus placeholder="Hit New to create a note!"></textarea>
-        <p>A <a href="https://healeycodes.github.io/">@healeycodes</a> tutorial.</p>
+        <textarea id="editor" rows="10" onkeyup="saveNote()" onkeydown="checkEmpty()" autofocus
+            placeholder="Hit New to create a note!"></textarea>
+        <p>
+            <small>A <a href="https://healeycodes.github.io/">@healeycodes</a> tutorial.</small>
+        </p>
+        <p>
+            <a class="github-button" href="https://github.com/healeycodes/tiny-note-taker" data-icon="octicon-star"
+                data-size="large" aria-label="Star healeycodes/tiny-note-taker on GitHub">Star</a>
+        </p>
     </div>
     <script src="./index.js"></script>
 </body>
