@@ -1,6 +1,6 @@
 # Tiny Note Taker
 
-The final code for my tutorial on interacting with the Storage API. The result is a tiny but powerful note-taking app.
+The final code for my tutorial on interacting with the Storage API. The result is a tiny note-taking app.
 
 Live version [here](https://healeycodes.github.io/tiny-note-taker/).
 
